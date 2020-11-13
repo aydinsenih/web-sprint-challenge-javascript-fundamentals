@@ -27,13 +27,29 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.foreach doesnt return anything, .map returns an array
+.map .foreach doesnt mutate the array which means given array doesn`t change
+
 2. Explain the difference between a callback and a higher order function.
+
+higher order function takes another function as an argument.
+a callback function passed to another function to be using it in the function.
 
 3. What is closure?
 
+Closure gives you access to an outer function’s scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+in non-strict mode `this` will default to the global object
+`this` point to the object on which the function is called
+we can set `this`to point to a certain value using call, apply, bind.
+using the `new` keyword constructs a new object and `this` points it
+
+
 5. Why do we need super() in an extended class?
+
+to pass child`s attibutes to parent class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -58,17 +74,17 @@ Your finished project must include all of the following requirements
 #### Task A: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task D: Classes
 
